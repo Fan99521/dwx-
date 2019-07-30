@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mydiv{
+    width: 478px;
+    float: left;
+}
+.mydiv img{
+    width: 100%;
+}
+.mydiv1{
+    width: 500px;
+    height: 736px;
+    float: left;
+    margin-top: 124px;
+    margin-left: 447px;
+}
+.mydiv1 h1{
+    font-weight: 500;
+}
+.mydiv h2{
+    font-weight: normal;
+}
+.mydiv2{
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+.mydiv1 .mydiv2 span{
+    font-size: 23px;
+}
+.mydiv1 .mydiv2 span a{
+    text-decoration: none;
+    margin-left: 196px;
+    color: #359eff;
+}
+.mydiv1 input{
+    width: 481px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.mydiv1 select{
+    width: 100px;
+    height: 50px;
+    display: inline;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.mydiv1 .myinput{
+    width: 356px;
+    height: 50px;
+    float: left;
+    margin-top: -52px;
+    margin-left: 125px;
+    font-size: 20px;
+    padding-left: 15px; 
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.mydiv1 .myp{
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 42px;
+}
+.mydiv1 button{
+    width: 498px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    background: #359eff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+.mydiv1 .myinput1{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+.mydiv1 .mspan{
+    display: block;
+    margin-top: -35px;
+    margin-left: 25px;
+    color: #999999;
+    font-size: 14px;
+}
+.mydiv1 .mp{
+    color: #bbcade;
+    font-size: 14px;
+    margin-left: 74px;
+    margin-top: 167px;
+}
