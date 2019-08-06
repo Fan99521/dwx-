@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+}
+.header-banxin{
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.header-banxin::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.logo,.nav{
+    float: left;
+}
+.search-login{
+    float: right;
+}
+
+.logo img{
+    height: 78px;
+}
+
+.nav{
+    overflow: hidden;
+    list-style: none;
+}
+.nav li{
+    float: left;
+    height: 78px;
+}
+.nav li.nav-1{
+    width: 92px;
+    background: url(../img/nav.png) no-repeat 0 0;
+}
+.nav li.nav-1:hover{
+    background: url(../img/nav-on.png) no-repeat 0 0;
+}
+.nav li.nav-2 {
+    width: 113px;
+    background: url(../img/nav.png) no-repeat -92px 0;
+}
+.nav li.nav-2:hover{
+    background: url(../img/nav-on.png) no-repeat -92px 0;
+}
+.nav li.nav-3 {
+    width: 132px;
+    background: url(../img/nav.png) no-repeat -205px 0;
+}
+.nav li.nav-3:hover{
+    background: url(../img/nav-on.png) no-repeat -205px 0;
+}
+.nav li.nav-4 {
+    width: 109px;
+    background: url(../img/nav.png) no-repeat -337px 0;
+}
+.nav li.nav-4:hover{
+    background: url(../img/nav-on.png) no-repeat -337px 0;
+}
+.nav li.nav-5 {
+    width: 113px;
+    background: url(../img/nav.png) no-repeat -446px 0;
+}
+.nav li.nav-5:hover{
+    background: url(../img/nav-on.png) no-repeat -446px 0;
+}
+.nav li.nav-6 {
+    width: 112px;
+    background: url(../img/nav.png) no-repeat -559px 0;
+}
+.nav li.nav-6:hover{
+    background: url(../img/nav-on.png) no-repeat -559px 0;
+}
+.nav li.nav-7 {
+    width: 109px;
+    background: url(../img/nav.png) no-repeat -671px 0;
+}
+.nav li.nav-7:hover{
+    background: url(../img/nav-on.png) no-repeat -671px 0;
+}
+
+
+.search-login{
+    list-style: none;
+    /* overflow: hidden; */
+    height: 78px;
+}
+.search-login::after{
+    clear:both;
+    display:block;
+    content: "";
+}
+.search-login li{
+    float: left;
+    margin: 13px 7px;
+}
+.search-login .search{
+    margin-top: 20px;
+    position: relative;
+}
+.search-login .search:hover .mydiv{
+    background: url(../img/search_hover.png) no-repeat;
+}
+.search-login .search:hover .input01{
+    display: block;
+}
+.search-login .search .mydiv{
+    width: 30px;
+    height: 30px;
+    background: url(../img/search.png) no-repeat;
+}
+.search-login .search .input01{
+    width: 350px;
+    position: absolute;
+    top: 53px;
+    right: -90px;
+    display: none;
+    border-top: 1px solid rgb(253,119,1);
+    padding: 8px;
+    background: #fdfafaf8;
+    z-index: 9999;
+}
+.search-login .search .input01 input{
+    width: 260px;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #a99;
+    border-right: none;
+}
+.search-login .search .input01 button{
+    width:75px;
+    height: 30px;
+    font-size: 18px;
+    color: #fefefe;
+    background: rgb(253,119,1);
+    text-align: center;
+    border: none;
+    line-height: 30px;
+}
+.search-login .line{
+    font-size: 30px;
+    font-weight: 100;
+    color: #dbdbdb;
+}
+.search-login .login{
+    text-align: center;
+    overflow: hidden;
+}
+.search-login .login img{
+    width: 30px;
+    margin-bottom: -5px;
+}
+.search-login .login a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #a99;
+}
+.search-login .login a:hover{
+    color: #14b9e6;
+}
+.banner {
+    height: 358px;
+    background-color: #ffffff;
+}
+.banner .banner-container{
+    position: relative;
+    overflow: hidden;
+    width: 1439px;
+    margin: 0 auto;
+    height: 358px;
+    zoom: 1;
+}
+.banner .banner-container .live{
+    background-color: #ffffff;
+    border-bottom: 1px solid #f2f1ef;
+}
+.banner .banner-container .live .mdiv2{
+    width: 1066px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner .banner-container .live .mdiv2 .live_tips{
+    position: relative;
+    height: 36px;
+}
+.banner .banner-container .live .mdiv2 .live_tips .live-p{
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 50px;
+    background: url(../img/icon-speaker.png) 20px center no-repeat;
+}
+.banner .banner-container .live .mdiv2 .live_tips .live-span{
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    left: 50%;
+    margin-left: -20px;
+    background: url(../img/icon-live-open.png) no-repeat;
+    overflow: hidden;
+    text-indent: -20em;
+    bottom: -1px;
+    cursor: pointer;
+}
